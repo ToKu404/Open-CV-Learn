@@ -22,7 +22,7 @@ dilated = cv.dilate(cany, (5,5), iterations=2)
 
 # Eroding (Mengikis)
 eroded = cv.erode(dilated, (5,5), iterations=2)
-# cv.imshow("Lenna Eroded", eroded)
+# cv.imshow("Len na Eroded", eroded)
 
 # Resize
 resized = cv.resize(img, (300, 300), interpolation=cv.INTER_AREA)
