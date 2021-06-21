@@ -28,8 +28,4 @@ cv.imshow("Bitwise Not", bitwise_not)
 
 
 
-
-
-
-
 cv.waitKey(0)

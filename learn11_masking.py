@@ -19,5 +19,4 @@ masked = cv.bitwise_and(img, img, mask=mask)
 cv.imshow("Masked Image", masked)
 
 
-
 cv.waitKey(0)
