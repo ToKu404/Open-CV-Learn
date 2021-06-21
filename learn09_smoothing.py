@@ -19,5 +19,5 @@ cv.imshow("Median Blur", median)
 # Bilaterial
 bilateral = cv.bilateralFilter(img, 10, 35, 25) 
 cv.imshow("Bilaterial Blur", bilateral)
-
+ 
 cv.waitKey(0)
